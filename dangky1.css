@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ddf9c5;
+}
+.container {
+    background-color: #b7ffbd;
+    padding: 100px;
+    border-radius: 100px;
+    box-shadow: 0 0 100px rgb(172, 11, 11);
+    width: 600px;
+}
+.container input, .container textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+.container button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container button {
+  background-color: #ff958d;
+}
+.error {
+    color: red;
+}
